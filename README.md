@@ -18,14 +18,24 @@ This project explores how viral content emerges on Reddit using data analytics a
   - Sentiment analysis
   - Temporal features (hour, weekday)
   - Community-level features
-- Models Used:
-  - Logistic Regression (classification)
-  - Random Forest / XGBoost
-  - Regression models (engagement prediction)
-  - ARIMA (time-series forecasting)
+
+### Machine Learning Models
+- Logistic Regression (classification)
+- Random Forest / XGBoost
+- Regression models (engagement prediction)
+
+### Time-Series Analysis
+- Weekly aggregation of engagement
+- ARIMA model for trend forecasting
+
+### Network Analysis
+- Constructed a subreddit similarity network based on content features
+- Applied centrality measures (degree, betweenness)
+- Analysed relationships between network position and viral engagement
 
 ## Key Findings
 - Text content, timing, and subreddit activity influence engagement
+- Network centrality shows weak correlation with viral rate
 - Models can reasonably predict viral posts
 - Sudden spikes in engagement remain challenging to predict
 
@@ -34,12 +44,13 @@ This project explores how viral content emerges on Reddit using data analytics a
 - Scikit-learn
 - XGBoost
 - Statsmodels (ARIMA)
+- NetworkX (network analysis)
 - Jupyter Notebook
 
 ## Future Improvements
 - Use real-time Reddit API data
 - Apply deep learning models (e.g., BERT)
-- Include user interaction networks
+- Improve network modelling with user interaction graphs
 
 ## Author
 Jolin
