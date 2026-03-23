@@ -1,6 +1,6 @@
 # Predictive Modelling of Social Media Trend Emergence (Reddit-Based Study)
 
- Full Report: [Click here to view](./Jolin%20reddit%20fyp%20report.pdf)
+ Full Report: [Click here to view](./Jolin%20final%20reddit%20report.pdf)
 
 ## Overview
 This project explores how viral content emerges on Reddit using data analytics and machine learning. The goal is to identify key factors influencing engagement and predict whether a post will become viral.
