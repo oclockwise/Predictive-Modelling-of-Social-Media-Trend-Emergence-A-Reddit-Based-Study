@@ -41,5 +41,5 @@ This project explores how viral content emerges on Reddit using data analytics a
 - Apply deep learning models (e.g., BERT)
 - Include user interaction networks
 
-## 👤 Author
+## Author
 Jolin
